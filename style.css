@@ -56,3 +56,22 @@ main {
   padding-left: 0px;
   list-style-position: inside;
 }
+
+.table-article table {
+  border-collapse: collapse;
+  margin-top: 35px;
+}
+
+.table-article table > thead {
+  text-align: left;
+  background-color: #20A9E5;
+  color: #fff;  
+}
+
+.table-article table tr > th:nth-child(3) {
+  width: 48%;
+}
+
+.table-article tbody > tr:nth-child(odd) {
+  background-color: #B1E5F2;
+}
