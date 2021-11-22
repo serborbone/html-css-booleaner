@@ -38,3 +38,8 @@ body {
   color: #65C4ED;
   font-weight: 600;
 }
+
+.image-article section > p {
+  margin: 0;
+  font-size: 0.75em;
+}
